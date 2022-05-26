@@ -13,5 +13,4 @@ public class scannerNamber {
         return namber;
     }
 
-
 }
