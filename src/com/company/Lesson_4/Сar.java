@@ -1,14 +1,14 @@
-package com.company.lesson_4;
+package com.company.Lesson_4;
 
-public class car {
+public class Сar {
     int volumeTank;
     int balanceTank;
     int fuelСonsumption;
 
-    public car() {
+    public Сar() {
     }
 
-    public car(int volumeTank, int balanceTank, int fuelСonsumption) {
+    public Сar(int volumeTank, int balanceTank, int fuelСonsumption) {
         this.volumeTank = volumeTank;
         this.balanceTank = balanceTank;
         this.fuelСonsumption = fuelСonsumption;
