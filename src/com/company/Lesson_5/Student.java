@@ -1,16 +1,16 @@
 package com.company.Lesson_5;
 
 public class Student {
-    int id;
-    String surname;
-    String name;
-    String patronymic;
-    int yearBirth;
-    String address;
-    String telephone;
-    int faculty;
-    int course;
-    int group;
+  private   int id;
+    private String surname;
+    private String name;
+    private String patronymic;
+    private int yearBirth;
+    private String address;
+    private String telephone;
+    private int faculty;
+    private int course;
+    private int group;
 
     public Student() {
     }

@@ -1,17 +1,17 @@
 package com.company.Lesson_6;
 
 public class Subscriber {
-    int id;
-    String surname;
-    String name;
-    String patronymic;
-    String city;
-    String telephone;
-    String contractNumber;
-    double balance;
-    int cityTimeMin;
-    int timeLongDistanceCallsMin;
-    int internetTraffic;
+    private int id;
+    private  String surname;
+    private  String name;
+    private String patronymic;
+    private String city;
+    private String telephone;
+    private String contractNumber;
+    private double balance;
+    private  int cityTimeMin;
+    private  int timeLongDistanceCallsMin;
+    private  int internetTraffic;
 
     public Subscriber() {
     }

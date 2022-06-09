@@ -2,7 +2,7 @@ package com.company.Lesson_5;
 
 import java.util.Random;
 
-public class StudentLists {
+public class StudentGenerator {
     public static Student[] students = new Student[10];
 
     public static void getStudentLists() {
