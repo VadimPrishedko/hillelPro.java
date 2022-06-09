@@ -4,9 +4,9 @@ public class Run {
     public static void main(String[] args) {
 
         StudentGenerator.getStudentLists();
-        StudentGenerator.year(2002);
-        StudentGenerator.faculty(4);
-        StudentGenerator.facultyAndCourse(4, 4);
-        StudentGenerator.group(102);
+        StudentService.year(2002);
+        StudentService.faculty(4);
+        StudentService.facultyAndCourse(4, 4);
+        StudentService.group(102);
     }
 }
