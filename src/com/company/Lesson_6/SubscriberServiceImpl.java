@@ -49,7 +49,7 @@ public class SubscriberServiceImpl implements SubscriberService {
      */
 
     @Override
-    public void totalInternetTrafficConsumption(String city) {
+    public int totalInternetTrafficConsumption(String city) {
         System.out.println("суммарное потребление трафика интернета для определенного города; - " + city);
         int totalTraffic = 0;
         for (Subscriber subscriber : subscribers) {
@@ -58,13 +58,14 @@ public class SubscriberServiceImpl implements SubscriberService {
             }
         }
         System.out.println("суммарное потребление трафика - " + totalTraffic);
+        return totalTraffic;
     }
 
     /**
      * количество абонентов с отрицательны балансом;
      */
     @Override
-    public void negativeBalance() {
+    public int negativeBalance() {
         System.out.println("количество абонентов с отрицательны балансом;");
         int count = 0;
         for (Subscriber subscriber : subscribers) {
@@ -73,5 +74,6 @@ public class SubscriberServiceImpl implements SubscriberService {
             }
         }
         System.out.println("количество абонентов с отрицательны балансом " + count);
+        return count;
     }
 }

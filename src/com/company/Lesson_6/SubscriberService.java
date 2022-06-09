@@ -7,8 +7,8 @@ public interface SubscriberService {
 
     void searchFirstLetter(String surname);
 
-    void totalInternetTrafficConsumption(String city);
+    int totalInternetTrafficConsumption(String city);
 
-    void negativeBalance();
+    int negativeBalance();
 
 }
