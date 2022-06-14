@@ -1,21 +1,22 @@
 package com.company.Lesson_7;
 
 
-import static com.company.Lesson_7.Array.array;
 
 public class ArrayServiceImpl implements ArrayService {
+    public static String[] array = new String[10];
 
     private int count = 0;
 
 
     @Override
     public boolean add(int index, String value) {
-        if (array[index] == null) {
+        if (index > count - 1) {
             array[index] = value;
-            System.out.println(array[index]);
+            count++;
             return true;
+        } else {
+            System.out.println("Позиція занята");
         }
-        System.out.println("Позиція занята");
         return false;
 
     }
@@ -23,14 +24,12 @@ public class ArrayServiceImpl implements ArrayService {
 
     @Override
     public boolean add(String value) {
-        System.out.println(count);
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == null && array.length > count) {
-                array[i] = value;
+            if (i == count) {
                 count++;
-                return true;
-            } else {
+                array[i] = value;
                 System.out.println("позиція " + i + " значення " + value);
+                return true;
             }
         }
         return false;
@@ -38,11 +37,25 @@ public class ArrayServiceImpl implements ArrayService {
 
     @Override
     public boolean delete(int index) {
+        for (int i = 0; i < array.length; i++) {
+            if (index == i) {
+                array[i] = null;
+                count--;
+                return true;
+            }
+        }
         return false;
+
     }
 
     @Override
     public boolean delete(String value) {
+        for (int i = 0; i < array.length; i++) {
+            if (value == array[i]) {
+                array[i] = null;
+                count--;
+            }
+        }
         return false;
     }
 
