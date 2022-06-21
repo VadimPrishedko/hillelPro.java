@@ -6,7 +6,7 @@ import static com.company.Lesson_8.CollectionImpl.array;
 public class Run {
     public static void main(String[] args) {
 
-        Collection servise = new CollectionImpl();
+        Collection servise = new CollectionImpl<String>();
 
         servise.add("test");
         servise.add( 1,"test2");

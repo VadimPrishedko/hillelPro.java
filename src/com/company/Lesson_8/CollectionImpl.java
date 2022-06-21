@@ -1,9 +1,12 @@
 package com.company.Lesson_8;
 
-public class CollectionImpl implements Collection {
+import com.company.Lesson_10.Iterator;
+
+public class CollectionImpl<E> implements Collection, Iterator {
 
     public static String[] array = new String[10];
     private int count = 0;
+    private int index = 0;
 
 
     @Override
@@ -66,7 +69,7 @@ public class CollectionImpl implements Collection {
     public boolean equals(String[] str) {
         boolean temp = false;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == str[i]){
+            if (array[i] == str[i]) {
                 temp = true;
             } else {
                 temp = false;
@@ -88,4 +91,43 @@ public class CollectionImpl implements Collection {
     public int size() {
         return count;
     }
+
+
+//    public Iterator<String> iterator() {
+//        Iterator<String> it = new Iterator<String>() {
+
+
+            @Override
+            public boolean hasNext() {
+                if(array[index] != null)
+                    return true;
+                return false;            }
+
+            @Override
+            public String next() {
+
+                return array[index++];
+            }
+
+            @Override
+            public boolean remove() {
+                final String[] newArray = new String[array.length - 1];
+                int temp = index + 1;
+
+                System.arraycopy(array, 0, newArray, 0, temp);
+                System.arraycopy(array, temp + 1, newArray, temp, newArray.length - temp);
+
+                array = newArray;
+                return true;
+            }
+
+
+//        };
+//        return it;
+//    }
+
+
 }
+
+
+
