@@ -12,9 +12,9 @@ import java.util.List;
 public class Run {
     public static void main(String[] args) {
 
-/**
- * 1. Напишите метод, который на вход получает коллекцию объектов, а возвращает коллекцию уже без дубликатов.
- */
+        /**
+         * 1. Напишите метод, который на вход получает коллекцию объектов, а возвращает коллекцию уже без дубликатов.
+         */
 
         List list = new LinkedList();
         list.add("test");
@@ -52,8 +52,6 @@ public class Run {
         double c = scannerNamber.getNamber();
         new RootsQuadraticEquation(a, b, c);
     }
-
-
 
 
 }
