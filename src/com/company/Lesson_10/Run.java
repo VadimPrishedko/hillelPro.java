@@ -50,7 +50,7 @@ public class Run {
         double a = scannerNamber.getNamber();
         double b = scannerNamber.getNamber();
         double c = scannerNamber.getNamber();
-        new rootsQuadraticEquation(a, b, c);
+        new RootsQuadraticEquation(a, b, c);
     }
 
 

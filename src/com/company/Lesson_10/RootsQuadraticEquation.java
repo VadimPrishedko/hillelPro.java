@@ -1,15 +1,15 @@
 package com.company.Lesson_10;
 
-public class rootsQuadraticEquation {
+public class RootsQuadraticEquation {
 
 
     double a , b, c;
 
-    public rootsQuadraticEquation(double a, double b, double c) {
+    public RootsQuadraticEquation(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;
-        rootsQuadraticEquation(a, b, c);
+        new RootsQuadraticEquation(a, b, c);
     }
 
     public static void rootsQuadraticEquation(double a, double b, double c) {
