@@ -9,7 +9,7 @@ public class RootsQuadraticEquation {
         this.a = a;
         this.b = b;
         this.c = c;
-        new RootsQuadraticEquation(a, b, c);
+        rootsQuadraticEquation(a, b, c);
     }
 
     public static void rootsQuadraticEquation(double a, double b, double c) {
