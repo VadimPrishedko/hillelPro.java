@@ -93,38 +93,31 @@ public class CollectionImpl<E> implements Collection, Iterator {
     }
 
 
-//    public Iterator<String> iterator() {
-//        Iterator<String> it = new Iterator<String>() {
+    @Override
+    public boolean hasNext() {
+        if (array[index] != null)
+            return true;
+        return false;
+    }
 
+    @Override
+    public String next() {
 
-            @Override
-            public boolean hasNext() {
-                if(array[index] != null)
-                    return true;
-                return false;            }
+        return array[index++];
+    }
 
-            @Override
-            public String next() {
+    @Override
+    public boolean remove() {
+        final String[] newArray = new String[array.length - 1];
+        int temp = index + 1;
 
-                return array[index++];
-            }
+        System.arraycopy(array, 0, newArray, 0, temp);
+        System.arraycopy(array, temp + 1, newArray, temp, newArray.length - temp);
 
-            @Override
-            public boolean remove() {
-                final String[] newArray = new String[array.length - 1];
-                int temp = index + 1;
+        array = newArray;
+        return true;
+    }
 
-                System.arraycopy(array, 0, newArray, 0, temp);
-                System.arraycopy(array, temp + 1, newArray, temp, newArray.length - temp);
-
-                array = newArray;
-                return true;
-            }
-
-
-//        };
-//        return it;
-//    }
 
 
 }
