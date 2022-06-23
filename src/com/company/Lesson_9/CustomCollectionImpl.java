@@ -39,7 +39,7 @@ public class CustomCollectionImpl<E> implements CustomCollection {
 
     @Override
     public boolean addAll(CustomCollection strColl) {
-        if (strColl != null) {
+        if (strColl.size() != 0) {
             for (int i = 0; i < strColl.size(); i++) {
                 add(strColl.get(i));
             }
@@ -51,11 +51,21 @@ public class CustomCollectionImpl<E> implements CustomCollection {
 
     @Override
     public boolean delete(int index) {
-        if (last != null) {
-            Entry temp = last;
+
+        if (header == null) {
+            return false;
+        }
+        if (index < 0 || index > size()) {
+            return false;
+        }
+        if (header != null) {
+            Entry temp = header;
             Entry temp2 = null;
-            int i = -1;
-            while (temp != null) {
+            int i = 0;
+
+            while (i < index) {
+//
+
                 i++;
                 if (i == index) {
                     if (temp2 == null) {
@@ -64,8 +74,10 @@ public class CustomCollectionImpl<E> implements CustomCollection {
                         temp2.next = temp.next;
                     }
                 }
+
                 temp2 = temp;
                 temp = temp.next;
+
             }
             size--;
             return true;
@@ -79,12 +91,12 @@ public class CustomCollectionImpl<E> implements CustomCollection {
     public boolean delete(String str) {
         Entry temp = header;
         int i = 0;
+
         while (!temp.element.equals(str)) {
             i++;
             temp = temp.next;
         }
         delete(i);
-
         return true;
     }
 
