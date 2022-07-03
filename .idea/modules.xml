@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/com/company/Lesson_12/MvnApp/MvnApp.iml" filepath="$PROJECT_DIR$/src/com/company/Lesson_12/MvnApp/MvnApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/company/Lesson_12/MvnApp/Mvn.iml" filepath="$PROJECT_DIR$/src/com/company/Lesson_12/MvnApp/Mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/company/Lesson_13/MvnApp/MvnApp.iml" filepath="$PROJECT_DIR$/src/com/company/Lesson_13/MvnApp/MvnApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaPro.iml" filepath="$PROJECT_DIR$/javaPro.iml" />
     </modules>
   </component>

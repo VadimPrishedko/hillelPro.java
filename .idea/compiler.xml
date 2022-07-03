@@ -7,11 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Mvn" />
         <module name="MvnApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Mvn" target="17" />
       <module name="MvnApp" target="17" />
+      <module name="test2" target="18" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="javaPro" options="--add-modules java.base" />
+    </option>
   </component>
 </project>
