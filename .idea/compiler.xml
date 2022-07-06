@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mvn" />
+        <module name="Mvn_lesson14" />
         <module name="MvnApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Mvn" target="17" />
+      <module name="Mvn_lesson14" target="17" />
       <module name="MvnApp" target="17" />
       <module name="test2" target="18" />
     </bytecodeTargetLevel>
