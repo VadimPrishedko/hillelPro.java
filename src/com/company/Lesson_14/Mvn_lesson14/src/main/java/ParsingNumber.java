@@ -1,3 +1,4 @@
+import java.util.Optional;
 
 public class ParsingNumber {
 
@@ -11,6 +12,7 @@ public class ParsingNumber {
     }
 
     private void Parsing() {
+
         for (int i = 0; i < number.length(); i++) {
             String temp = number.substring(i, i + 1);
             for (int j = 0; j < 5; j++) {
@@ -25,11 +27,43 @@ public class ParsingNumber {
                     case "7" -> this.arrayGraphic[i][j] = GraphicNumber.SEVEN[j];
                     case "8" -> this.arrayGraphic[i][j] = GraphicNumber.EIGHT[j];
                     case "9" -> this.arrayGraphic[i][j] = GraphicNumber.NINE[j];
-                    case "-" -> this.arrayGraphic[i][j] = GraphicNumber.MIN[j];
                 }
             }
         }
     }
+
+    public static String checkingForNumbers(String s) throws Exception {
+        String number;
+        number = ParsingNumber.removeFirstCharOptional(s);
+
+        try {
+            for (int i = 0; i < number.length() - 1; i++) {
+                int temp = Integer.parseInt(number.substring(i, i + 1));
+            }
+            number = ParsingNumber.removeLastCharOptional(number);
+        } catch (Exception e) {
+            System.out.println("Invalid input! Enter the number");
+            throw new Exception("Invalid input! Enter the number");
+        }
+
+        return number;
+    }
+
+
+    public static String removeLastCharOptional(String s) {
+        return Optional.ofNullable(s)
+                .filter(str -> str.length() != 0)
+                .map(str -> str.substring(0, str.length() - 1))
+                .orElse(s);
+    }
+
+    public static String removeFirstCharOptional(String s) {
+        return Optional.ofNullable(s)
+                .filter(str -> str.length() != 0)
+                .map(str -> str.substring(1))
+                .orElse(s);
+    }
+
 
     @Override
     public String toString() {

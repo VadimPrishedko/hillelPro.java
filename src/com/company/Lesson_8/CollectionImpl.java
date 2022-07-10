@@ -52,7 +52,7 @@ public class CollectionImpl<E> implements Collection, Iterator {
                 return array[i];
             }
         }
-        return null;
+        return "Ячейка не заповнена";
     }
 
     @Override
@@ -70,9 +70,9 @@ public class CollectionImpl<E> implements Collection, Iterator {
         boolean temp = false;
         for (int i = 0; i < array.length; i++) {
             if (array[i] == str[i]) {
-                temp = true;
+                return true;
             } else {
-                temp = false;
+                return false;
             }
         }
         return temp;
@@ -80,9 +80,7 @@ public class CollectionImpl<E> implements Collection, Iterator {
 
     @Override
     public boolean clear() {
-        for (int i = 0; i < array.length; i++) {
-            array[i] = null;
-        }
+        array = new String[10];
         count = 0;
         return true;
     }
@@ -117,7 +115,6 @@ public class CollectionImpl<E> implements Collection, Iterator {
         array = newArray;
         return true;
     }
-
 
 
 }

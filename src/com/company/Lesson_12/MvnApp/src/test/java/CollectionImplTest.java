@@ -11,12 +11,12 @@ class CollectionImplTest {
 
     @Test
     void add() {
-        assertEquals(servise.add("test"), servise.get(0) == "test");
+        assertEquals(servise.add("test"), servise.get(0).equals("test"));
     }
 
     @Test
     void testAdd() {
-        assertEquals(servise.add(1, "test2"), servise.get(1) == "test2");
+        assertEquals(servise.add(1, "test2"), servise.get(1).equals("test2"));
     }
 
     @Test
@@ -24,13 +24,13 @@ class CollectionImplTest {
         servise.add("test");
         servise.add("test2");
         servise.delete("test2");
-        assertNull(servise.get(1));
+        assertEquals(1,servise.size());
     }
 
     @Test
     void get() {
         servise.add("test");
-        assertNotNull(servise.get(0));
+        assertEquals("test",servise.get(0));
     }
 
     @Test
@@ -51,9 +51,8 @@ class CollectionImplTest {
         servise.add("test2");
         servise.clear();
 
-        for (int i = 0; i < array.length; i++) {
-            assertNull(servise.get(i));
-        }
+        assertEquals(0, servise.size());
+
     }
 
     @Test
