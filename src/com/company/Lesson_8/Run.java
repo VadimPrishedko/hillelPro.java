@@ -5,6 +5,7 @@ import static com.company.Lesson_8.CollectionImpl.array;
 
 public class Run {
     public static void main(String[] args) {
+        String[] array2 = new String[10];
 
         Collection servise = new CollectionImpl<String>();
 
@@ -16,6 +17,8 @@ public class Run {
         System.out.println(servise.get(0));
         System.out.println(servise.contain("test"));
         System.out.println(servise.equals(array));
+        array2[0] ="test";
+        System.out.println(servise.equals(array2));
         System.out.println(servise.size());
         System.out.println(servise.clear());
 

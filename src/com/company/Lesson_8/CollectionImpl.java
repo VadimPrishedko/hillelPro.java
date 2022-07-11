@@ -2,6 +2,8 @@ package com.company.Lesson_8;
 
 import com.company.Lesson_10.Iterator;
 
+import java.util.Objects;
+
 public class CollectionImpl<E> implements Collection, Iterator {
 
     public static String[] array = new String[10];
@@ -67,15 +69,14 @@ public class CollectionImpl<E> implements Collection, Iterator {
 
     @Override
     public boolean equals(String[] str) {
-        boolean temp = false;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == str[i]) {
-                return true;
-            } else {
+            if (!Objects.equals(array[i], str[i])) {
                 return false;
             }
+
         }
-        return temp;
+
+        return true;
     }
 
     @Override
