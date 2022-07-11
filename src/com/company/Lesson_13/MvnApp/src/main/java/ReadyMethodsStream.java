@@ -9,14 +9,15 @@ public class ReadyMethodsStream {
         return listInt.stream().mapToInt(Integer::intValue).average().orElse(0.0);
     }
 
-    public List<Pair> toUpperCase(List<String> listSring) {
-        return listSring.stream().map(Pair::new).collect(Collectors.toList());
+    public List<Pair> register(List<String> listSring) {
+        List<Pair> collect = listSring.stream().map(s -> new Pair(s.toLowerCase(), s.toUpperCase())).collect(Collectors.toList());
+        return collect;
     }
 
     public List<String> filter(List<String> listSring) {
         Predicate<String> lowerCase = str -> str.equals(str.toLowerCase());
         Predicate<String> length = str -> (str.length() == 4);
-        List<String> colect = listSring.stream().filter(lowerCase.and(length)).collect(Collectors.toList());
-        return colect;
+        List<String> collect = listSring.stream().filter(lowerCase.and(length)).collect(Collectors.toList());
+        return collect;
     }
 }

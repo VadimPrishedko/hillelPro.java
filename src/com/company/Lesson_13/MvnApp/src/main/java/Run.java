@@ -22,7 +22,7 @@ public class Run {
         listSring.add("six");
         listSring.add("seven");
 
-        System.out.println(new ReadyMethodsStream().toUpperCase(listSring));
+        System.out.println(new ReadyMethodsStream().register(listSring));
         System.out.println(new ReadyMethodsStream().filter(listSring));
     }
 }

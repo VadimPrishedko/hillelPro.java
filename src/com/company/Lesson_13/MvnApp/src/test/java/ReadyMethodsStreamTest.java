@@ -25,7 +25,7 @@ class ReadyMethodsStreamTest {
         listSring.add("one");
         listSring.add("two");
         listSring.add("three");
-        assertEquals("[Pair{\"one\" : \"ONE\"}, Pair{\"two\" : \"TWO\"}, Pair{\"three\" : \"THREE\"}]", new ReadyMethodsStream().toUpperCase(listSring).toString());
+        assertEquals("[Pair{one : ONE}, Pair{two : TWO}, Pair{three : THREE}]", new ReadyMethodsStream().register(listSring).toString());
      }
 
     @Test

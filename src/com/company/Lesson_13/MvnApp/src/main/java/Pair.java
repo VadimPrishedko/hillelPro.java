@@ -1,14 +1,19 @@
 public class Pair {
-    private String in;
+    private final String lowerCase;
+    private final String upperCase;
 
-    public Pair(String in) {
-        this.in = in;
+    public Pair(String lowerCase, String upperCase) {
+        this.lowerCase = lowerCase;
+        this.upperCase = upperCase;
     }
+
 
     @Override
     public String toString() {
-        return "Pair{\"" + in + "\" : \"" +
-                in.toUpperCase() + '\"' +
+        return "Pair{" +
+                lowerCase + " : "
+                + upperCase +
                 '}';
     }
+
 }
