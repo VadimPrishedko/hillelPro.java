@@ -1,14 +1,18 @@
 import dto.Player;
+import service.FilesDir;
 import service.Game;
 
+import java.io.IOException;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class RunGame {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int handPlayer = 0;
         int count = 0;
         Scanner cs = new Scanner(System.in);
+        FilesDir file = new FilesDir("test.txt");
+        file.addFile();
 
 
         System.out.println("Game Rock-Scissors-Paper");
@@ -53,11 +57,16 @@ public class RunGame {
                 }
             } while (scanInt);
 
-
-            System.out.println(new Game().gamePay(handPlayer, player.getName()));
-
             iter++;
+
+            String str = "Game " + iter + "\n" + new Game().gamePay(handPlayer, player.getName());
+
+            file.writeToFile(file.getFile(), str);
+
+            System.out.println(str);
+
             if (iter != player.getCount()) {
+
                 System.out.println("played " + iter + " out of " + count + "\n" +
                         "stop the game? \n enter Y or N"
                 );
@@ -70,6 +79,7 @@ public class RunGame {
 
         } while (player.getCount() != iter);
 
-
+        System.out.println(file.toString());
+//        file.deleteContent(); // content removal
     }
 }
