@@ -11,7 +11,7 @@ public class RunGame {
         int handPlayer = 0;
         int count = 0;
         Scanner cs = new Scanner(System.in);
-        FilesDir file = new FilesDir("test.txt");
+        FilesDir file = new FilesDir("result.txt");
         file.addFile();
 
 
