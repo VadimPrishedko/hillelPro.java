@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.Scanner;
 
 public class FilesDir {
-    final String NAMEDIR = "/Users/user/Desktop/javaPro/src/com/company/Lesson_16/RockPaperScissors/";
     String fileName;
     File file;
 
@@ -13,7 +12,8 @@ public class FilesDir {
     }
 
     public boolean addFile() throws IOException {
-        file = new File(NAMEDIR, fileName);
+        file = new File(fileName);
+
         if (!file.exists()) {
             file.createNewFile();
             return true;
