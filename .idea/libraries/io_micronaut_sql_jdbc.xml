@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="io.micronaut.sql.jdbc" type="repository">
+    <properties maven-id="io.micronaut.sql:micronaut-jdbc:4.4.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/micronaut/sql/micronaut-jdbc/4.4.0/micronaut-jdbc-4.4.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject/3.4.3/micronaut-inject-3.4.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/micronaut/micronaut-core/3.4.3/micronaut-core-3.4.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
