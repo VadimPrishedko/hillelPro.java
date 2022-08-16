@@ -1,0 +1,470 @@
+Game 1
+sdsds bet: Rock ❍
+computer: Scissors ✄
+Player Win
+
+Game 2
+sdsds bet: Rock ❍
+computer: Scissors ✄
+Player Win
+
+Game 1
+dsdw bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+dsdw bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+dddd bet: Rock ❍
+computer: Rock ❍
+Draw
+
+Game 2
+dddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 1
+ddads bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+ddads bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 1
+xxxx bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 2
+xxxx bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+dddd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+dddd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+dddd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+dddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 1
+ssss bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+ssss bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+ddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+ddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 1
+ssss bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+ssss bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 1
+ввв bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+ввв bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 3
+ввв bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 1
+dcsdcsdc bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+dcsdcsdc bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+eee bet: Paper ❏
+computer: Paper ❏
+Draw
+
+Game 2
+eee bet: Paper ❏
+computer: Rock ❍
+Player Win
+
+Game 3
+eee bet: Paper ❏
+computer: Rock ❍
+Player Win
+
+Game 1
+sdeve bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+sdeve bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+wecwec bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+wecwec bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 1
+sdcwcwceewd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 2
+sdcwcwceewd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 3
+sdcwcwceewd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 4
+sdcwcwceewd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 5
+sdcwcwceewd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 6
+sdcwcwceewd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 7
+sdcwcwceewd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 8
+sdcwcwceewd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 9
+sdcwcwceewd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 10
+sdcwcwceewd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 1
+dcdcwd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+dcdcwd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 3
+dcdcwd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 4
+dcdcwd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 5
+dcdcwd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 1
+dddd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+dddd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 3
+dddd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 4
+dddd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 5
+dddd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+gggg bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+gggg bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+dddd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+dddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 3
+dddd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 4
+dddd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 5
+dddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 6
+dddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 7
+dddd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 8
+dddd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 9
+dddd bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 1
+asxasx bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 2
+asxasx bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 3
+asxasx bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 4
+asxasx bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 5
+asxasx bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+ssdcscsdc bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 2
+ssdcscsdc bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 3
+ssdcscsdc bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 4
+ssdcscsdc bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 5
+ssdcscsdc bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 6
+ssdcscsdc bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 7
+ssdcscsdc bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 1
+ffverver bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+ffverver bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 3
+ffverver bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 4
+ffverver bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 5
+ffverver bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 6
+ffverver bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+wcwecwecew bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+wcwecwecew bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 3
+wcwecwecew bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 4
+wcwecwecew bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 5
+wcwecwecew bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 1
+cdsdcsd bet: Scissors ✄
+computer: Scissors ✄
+Draw
+
+Game 2
+cdsdcsd bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 1
+cacwc bet: Paper ❏
+computer: Scissors ✄
+Computer Win
+
+Game 2
+cacwc bet: Paper ❏
+computer: Scissors ✄
+Computer Win
+
+Game 3
+cacwc bet: Paper ❏
+computer: Paper ❏
+Draw
+
+Game 1
+weew bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 2
+weew bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 3
+weew bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
