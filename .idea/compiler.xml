@@ -12,6 +12,7 @@
         <module name="DBPractice" />
         <module name="Mvn" />
         <module name="RockPaperScissors" />
+        <module name="HibernatePractice" />
         <module name="blackJack" />
         <module name="MvnApp" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="BDPractice" target="1.8" />
       <module name="blackJack" target="17" />
       <module name="DBPractice" target="9" />
+      <module name="HibernatePractice" target="17" />
       <module name="Mvn" target="17" />
       <module name="Mvn_lesson14" target="17" />
       <module name="MvnApp" target="17" />
