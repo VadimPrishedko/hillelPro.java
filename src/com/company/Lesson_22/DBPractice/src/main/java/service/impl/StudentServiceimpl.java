@@ -10,6 +10,7 @@ import java.util.List;
 
 public class StudentServiceimpl implements StudentService {
     DataService db = new DataService();
+    List<Student> students;
 
     @Override
     public List<Student> getAll() throws SQLException, ClassNotFoundException {
@@ -28,31 +29,36 @@ public class StudentServiceimpl implements StudentService {
     }
 
     @Override
-    public void getByName(String name) throws SQLException, ClassNotFoundException {
-        List<Student> studentName = getAll();
+    public List<Student> getByName(String name) throws SQLException, ClassNotFoundException {
         System.out.println("by name");
-        studentName.stream().filter(x -> x.getFio().equals(name)).forEach(x ->
-                System.out.println("id: " + x.getId()
-                        + " fio: " + x.getFio()
-                        + " group: " + x.getGroup()
-                        + " hours: " + x.getHours()));
+        students = getAll();
+      List<Student> studentName = new ArrayList<>();
+        for (Student student : students) {
+            if (student.getFio().equals(name)) {
+                studentName.add(student);
+            }
+        }
+        return studentName;
     }
 
     @Override
-    public void getByIds(List<Integer> ids) throws SQLException, ClassNotFoundException {
-        List<Student> studentId = getAll();
+    public List<Student> getByIds(List<Integer> ids) throws SQLException, ClassNotFoundException {
+        students = getAll();
+        List<Student> studentId = new ArrayList<>();
         System.out.println("by index");
-        for (int i = 0; i < studentId.size(); i++) {
+        for (Student student : students) {
             for (int j = 0; j < ids.size(); j++) {
-                if (studentId.get(i).getId() == ids.get(j).intValue()) {
-                    System.out.println("id: " + studentId.get(i).getId()
-                            + " fio: " + studentId.get(i).getFio()
-                            + " group: " + studentId.get(i).getGroup()
-                            + " hours: " + studentId.get(i).getHours());
+                if (student.getId() == ids.get(j).intValue()) {
+                    studentId.add(student);
+
                 }
             }
         }
+        return studentId;
+
     }
+
+
 
     @Override
     public void deleteStudent() throws SQLException, ClassNotFoundException {

@@ -1,4 +1,5 @@
 
+import dto.Student;
 import service.impl.StudentServiceimpl;
 
 import java.sql.SQLException;
@@ -11,11 +12,26 @@ public class Run {
         StudentServiceimpl sti = new StudentServiceimpl();
         sti.getAll().stream();
         sti.createStudent();
-        sti.getByName("Ivan");
+
+        List<Student> studentName =  sti.getByName("Ivan");
+        for(Student s : studentName) {
+            System.out.println("id: " + s.getId()
+                        + " fio: " + s.getFio()
+                        + " group: " + s.getGroup()
+                        + " hours: " + s.getHours());
+        }
+
         List<Integer> ids = new ArrayList<>();
         ids.add(5);
         ids.add(7);
-        sti.getByIds(ids);
+
+        List<Student> studentId =  sti.getByIds(ids);
+        for(Student s : studentId) {
+            System.out.println("id: " + s.getId()
+                    + " fio: " + s.getFio()
+                    + " group: " + s.getGroup()
+                    + " hours: " + s.getHours());
+        }
         sti.deleteStudent();
     }
 }

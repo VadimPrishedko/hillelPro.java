@@ -7,8 +7,13 @@ import java.util.List;
 
 public interface StudentService {
     List<Student> getAll() throws SQLException, ClassNotFoundException;
+
     void createStudent() throws SQLException, ClassNotFoundException;
-    void getByName(String name) throws SQLException, ClassNotFoundException;
-    void getByIds(List<Integer> ids) throws SQLException, ClassNotFoundException;
+
+    List<Student> getByName(String name) throws SQLException, ClassNotFoundException;
+
+    List<Student> getByIds(List<Integer> ids) throws SQLException, ClassNotFoundException;
+
     void deleteStudent() throws SQLException, ClassNotFoundException;
+
 }
