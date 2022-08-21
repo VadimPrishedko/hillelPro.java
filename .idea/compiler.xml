@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="RockPaperScissorsmMultilingual" />
         <module name="RockPaperScissorsLog" />
         <module name="Mvn_lesson14" />
         <module name="DBPractice" />
@@ -27,6 +28,7 @@
       <module name="MvnApp" target="17" />
       <module name="RockPaperScissors" target="18" />
       <module name="RockPaperScissorsLog" target="17" />
+      <module name="RockPaperScissorsmMultilingual" target="17" />
       <module name="test2" target="18" />
     </bytecodeTargetLevel>
   </component>

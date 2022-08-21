@@ -468,3 +468,18 @@ weew bet: Scissors ✄
 computer: Paper ❏
 Player Win
 
+Game 1
+вивс bet: Scissors ✄
+computer: Rock ❍
+Computer Win
+
+Game 1
+wwcwe bet: Scissors ✄
+computer: Paper ❏
+Player Win
+
+Game 1
+s bet: Paper ❏
+computer: Rock ❍
+Player Win
+
