@@ -16,11 +16,13 @@
         <module name="HibernatePractice" />
         <module name="blackJack" />
         <module name="MvnApp" />
+        <module name="CachingPractice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BDPractice" target="1.8" />
       <module name="blackJack" target="17" />
+      <module name="CachingPractice" target="17" />
       <module name="DBPractice" target="9" />
       <module name="HibernatePractice" target="17" />
       <module name="Mvn" target="17" />
@@ -34,6 +36,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CachingPractice" options="-parameters" />
       <module name="javaPro" options="--add-modules java.base" />
     </option>
   </component>

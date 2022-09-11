@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/com/company/Lesson_26/CachingPractice/CachingPractice.iml" filepath="$PROJECT_DIR$/src/com/company/Lesson_26/CachingPractice/CachingPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/company/Lesson_22/DBPractice/DBPractice.iml" filepath="$PROJECT_DIR$/src/com/company/Lesson_22/DBPractice/DBPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/company/Lesson_24/HibernatePractice/HibernatePractice.iml" filepath="$PROJECT_DIR$/src/com/company/Lesson_24/HibernatePractice/HibernatePractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/company/Lesson_12/MvnApp/Mvn.iml" filepath="$PROJECT_DIR$/src/com/company/Lesson_12/MvnApp/Mvn.iml" />
